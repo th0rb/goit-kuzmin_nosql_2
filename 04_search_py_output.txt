@@ -1,0 +1,109 @@
+> & D:/python/python.exe d:/Code/goit-kuzmin_nosql_2/04_search.py
+Loading weights: 100%|██████████████████████████████████████████████████████| 199/199 [00:00<00:00, 24276.26it/s]
+Завантаження моделі SPECTER2...
+Loading weights: 100%|██████████████████████████████████████████████████████| 199/199 [00:00<00:00, 19406.79it/s]
+Підключено до індексу: arxiv-papers
+
+
+============================================================
+ЧИСТИЙ СЕМАНТИЧНИЙ ПОШУК
+Запит: superconducting behavior
+============================================================
+QueryResponse(matches=[ScoredVector(id='paper_7902', score=0.827481389, values=[], metadata={'abstract': "The spontaneous emergence of enhanced responses and local orders are\nproperties often associated with complex matter where nonlinearities and\nspatial inhomogeneities dominate. We discuss these phenomena in quantum devices\nrealized with superconducting Josephson junction networks and cold atoms in\noptical lattices. We evidence how the pertinent engineering of the network's\nshape induces the enhancement of the zero-voltage Josephson critical currents\nin superconducting arrays as well as the emerge", 'arxiv_id': '0705.3900', 'authors': 'ManciniF. P., SodanoP., TrombettoniA.', 'category': 'cond-mat.supr-con', 'title': 'Spatially Inhomogeneous Superconducting and Bosonic Networks With\n  Emergent Complex Behaviors', 'year': 2007}), ScoredVector(id='paper_1723', score=0.813218236, values=[], metadata={'abstract': 'In this talk I discuss the inhomogeneous (LOFF) color superconductive phases\nof Quantum Chromodynamics (QCD). In particular, I show the effect of a core of\nLOFF phase on the cooling of a compact star.', 'arxiv_id': '0704.1724', 'authors': 'RuggieriM.', 'category': 'hep-ph', 'title': 'Inhomogeneous color superconductivity and the cooling of compact stars', 'year': 2007}), ScoredVector(id='paper_5176', score=0.804183125, values=[], metadata={'abstract': 'This paper emphasizes that non-linear rotational or diamagnetic\nsusceptibility is characteristic of Bose fluids above their superfluid Tcs, and\nfor sufficiently slow rotation or weak B-fields amounts to an incompressible\nresponse to vorticity. The cause is a missing term in the conventionally\naccepted model Hamiltonian for quantized vortices in the Bose fluid. The\nresulting susceptibility can account for recent observations of Chan et al on\nsolid He, and Ong et al on cuprate superconductors.', 'arxiv_id': '0705.1174', 'authors': 'AndersonPhilip W', 'category': 'cond-mat.supr-con', 'title': 'Bose Fluids Above Tc: Incompressible Vortex Fluids and "Supersolidity"', 'year': 2007}), ScoredVector(id='paper_8745', score=0.802478909, values=[], metadata={'abstract': 'Both the highest- and the linear temperature dependence of the resistivity in\nwide temperature range appear at the optimally doped regions of Cu-based\nsuperconductors1,2,3,4,5, and the highest- of Fe-based superconductors6,7 are\nalso associated with the linear temperature dependence of the resistivity in\nnormal states near superconducting states. This means that the high temperature\nsuperconductivity and the linear temperature dependence of the resistivity\nshould be dominated by the same mechani', 'arxiv_id': '0706.0059', 'authors': 'De CaoTian', 'category': 'physics.gen-ph', 'title': 'High-Tc superconductivity originated from strong spin-charge\n  correlation: indication from linear temperature dependence of resistivity', 'year': 2007}), ScoredVector(id='paper_1969', score=0.802253842, values=[], metadata={'abstract': 'We present a study of thermoelectric coefficients in CeCoIn_5 down to 0.1 K\nand up to 16 T in order to probe the thermoelectric signatures of quantum\ncriticality. In the vicinity of the field-induced quantum critical point, the\nNernst coefficient nu exhibits a dramatic enhancement without saturation down\nto lowest measured temperature. The dimensionless ratio of Seebeck coefficient\nto electronic specific heat shows a minimum at a temperature close to threshold\nof the quasiparticle formation. Clo', 'arxiv_id': '0704.1970', 'authors': 'IzawaK., BehniaK., MatsudaY., ShishidoH., SettaiR., OnukiY., FlouquetJ.', 'category': 'cond-mat.str-el', 'title': 'Thermoelectric response near a quantum critical point: the case of\n  CeCoIn5', 'year': 2007})], namespace='test', usage=Usage(read_units=1, write_units=None), response_info=ResponseInfo(raw_headers={'date': 'Sat, 30 May 2026 19:12:51 GMT', 'content-type': 'application/json', 'content-length': '3715', 'connection': 'keep-alive', 'x-pinecone-max-indexed-lsn': '50', 'x-pinecone-request-latency-ms': '142', 'x-envoy-upstream-service-time': '142', 'x-pinecone-response-duration-ms': '266', 'grpc-status': '0', 'server': 'envoy'}))
+ 1. Score: 0.8275 | 2007 | cond-mat.supr-con
+    Spatially Inhomogeneous Superconducting and Bosonic Networks With
+  Emergent Complex Behaviors...
+    Abstract: The spontaneous emergence of enhanced responses and local orders are
+properties often associated with complex matter where nonlinearities and
+spatial inhomogeneities dominate. We d...
+
+ 2. Score: 0.8132 | 2007 | hep-ph
+    Inhomogeneous color superconductivity and the cooling of compact stars...
+    Abstract: In this talk I discuss the inhomogeneous (LOFF) color superconductive phases
+of Quantum Chromodynamics (QCD). In particular, I show the effect of a core of
+LOFF phase on the coolin...
+
+ 3. Score: 0.8042 | 2007 | cond-mat.supr-con
+    Bose Fluids Above Tc: Incompressible Vortex Fluids and "Supersolidity"...
+    Abstract: This paper emphasizes that non-linear rotational or diamagnetic
+susceptibility is characteristic of Bose fluids above their superfluid Tcs, and
+for sufficiently slow rotation or we...
+
+ 4. Score: 0.8025 | 2007 | physics.gen-ph
+    High-Tc superconductivity originated from strong spin-charge
+  correlation: indication from linear temperature dependenc...
+    Abstract: Both the highest- and the linear temperature dependence of the resistivity in
+wide temperature range appear at the optimally doped regions of Cu-based
+superconductors1,2,3,4,5, and...
+
+ 5. Score: 0.8023 | 2007 | cond-mat.str-el
+    Thermoelectric response near a quantum critical point: the case of
+  CeCoIn5...
+    Abstract: We present a study of thermoelectric coefficients in CeCoIn_5 down to 0.1 K
+and up to 16 T in order to probe the thermoelectric signatures of quantum
+criticality. In the vicinity o...
+
+
+============================================================
+ПОШУК З ФІЛЬТРАМИ
+============================================================
+Приклад A: Reinforcement Learning (cs.LG), після 2017 року
+
+Приклад B: Статті до 2015 року
+1. Spatially Inhomogeneous Superconducting and Bosonic Networks With
+  Emergent Complex Behaviors... | 2007
+2. Inhomogeneous color superconductivity and the cooling of compact stars... | 2007
+3. Bose Fluids Above Tc: Incompressible Vortex Fluids and "Supersolidity"... | 2007
+4. High-Tc superconductivity originated from strong spin-charge
+  correlation: indication from linear t... | 2007
+5. Thermoelectric response near a quantum critical point: the case of
+  CeCoIn5... | 2007
+
+============================================================
+ПОРІВНЯННЯ МЕТРИК НА ЛОКАЛЬНИХ ЕМБЕДДИНГАХ
+============================================================
+Запит: superconducting behavior
+
+
+--- Cosine Similarity ---
+1. Score: 0.8274 | 2007 | cond-mat.supr-con
+    Spatially Inhomogeneous Superconducting and Bosonic Networks With
+  Emergent Complex Behaviors...
+2. Score: 0.8140 | 2007 | hep-ph
+    Inhomogeneous color superconductivity and the cooling of compact stars...
+3. Score: 0.8054 | 2007 | cond-mat.supr-con
+    Bose Fluids Above Tc: Incompressible Vortex Fluids and "Supersolidity"...
+4. Score: 0.8032 | 2007 | quant-ph
+    Why should anyone care about computing with anyons?...
+5. Score: 0.8026 | 2007 | physics.gen-ph
+    High-Tc superconductivity originated from strong spin-charge
+  correlation: indication from linear temperature...
+
+--- Dot Product ---
+1. Score: 16.5211 | 2007 | cond-mat.supr-con
+    Spatially Inhomogeneous Superconducting and Bosonic Networks With
+  Emergent Complex Behaviors...
+2. Score: 16.2543 | 2007 | hep-ph
+    Inhomogeneous color superconductivity and the cooling of compact stars...
+3. Score: 16.0814 | 2007 | cond-mat.supr-con
+    Bose Fluids Above Tc: Incompressible Vortex Fluids and "Supersolidity"...
+4. Score: 16.0377 | 2007 | quant-ph
+    Why should anyone care about computing with anyons?...
+5. Score: 16.0263 | 2007 | physics.gen-ph
+    High-Tc superconductivity originated from strong spin-charge
+  correlation: indication from linear temperature...
+
+--- L2 Distance ---
+1. Score: 19.1489 | 2007 | cond-mat.supr-con
+    Spatially Inhomogeneous Superconducting and Bosonic Networks With
+  Emergent Complex Behaviors...
+2. Score: 19.1628 | 2007 | hep-ph
+    Inhomogeneous color superconductivity and the cooling of compact stars...
+3. Score: 19.1718 | 2007 | cond-mat.supr-con
+    Bose Fluids Above Tc: Incompressible Vortex Fluids and "Supersolidity"...
+4. Score: 19.1741 | 2007 | quant-ph
+    Why should anyone care about computing with anyons?...
+5. Score: 19.1747 | 2007 | physics.gen-ph
+    High-Tc superconductivity originated from strong spin-charge
+  correlation: indication from linear temperature...
+  
